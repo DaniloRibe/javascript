@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica-Lab-JS</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+    <div id='itens'>
+        <h4>TAREFAS A FAZER(TO DO APP)</h4>
+        <h5 style="color: yellow;">Adicione texto dentro da caixa de texto para inserir novas atividades.</h5>
+        <h5 style="color: green;">Clique no item para marcar a atividade como completa.</h5>
+        <h5 style="color: darkseagreen;">Clique no "X" da atividade para remover o item.</h5>
+        <input id="tarefa" type="text" placeholder="Nova tarefa..." maxlength='100'>
+        <button id="addT" onclick="addTarefa(tarefa)">Adicionar</button>
+    </div>
+    <ul style="padding-left: 0px;" id="lista"></ul>
+</body>
+<script src="javascript.js"></script>
+</html>
